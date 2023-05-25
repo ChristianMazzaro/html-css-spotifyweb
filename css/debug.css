@@ -72,10 +72,6 @@ debug footer .container .player-container .music-player{
     color: white;
     font-weight:600;
     font-size:1.875rem;
+    padding: 1.25rem;
 }
 
-i{
-    width: 200px;
-    height: 200px;
-    display: block;
-}
