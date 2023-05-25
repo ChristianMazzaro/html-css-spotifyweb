@@ -1,15 +1,21 @@
 
-.debug main .container .left-nav{
+
+/*
+                    STRUCTURE DEBUG
+*/
+
+
+debug main .container .left-nav{
     width: 250px;
     height:100vw;
     outline: 3px dashed white;
 }
 
-.debug main .container .right-nav{
+debug main .container .right-nav{
     position: relative;
 }
 
-.debug main .container .right-nav .upgrade-msg{
+debug main .container .right-nav .upgrade-msg{
     position: fixed;
     height: 80px;
     width: calc(100% - 250px);
@@ -21,7 +27,7 @@
 }
 
 
-.debug main .container .right-nav .upgrade-msg a{
+debug main .container .right-nav .upgrade-msg a{
     color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -32,16 +38,44 @@
 }
 
 
-.debug footer .container .player-container{
+debug footer .container .player-container{
     position: relative;
 }
 
 
-.debug footer .container .player-container .music-player{
+debug footer .container .player-container .music-player{
     width: 100%;
     height: 80px;
     outline: 3px dashed white;
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+/*
+-----------------------------------------------------------------------------------------------
+*/
+
+/*
+                   MAIN DEBUG
+*/
+
+.debug .main-nav ul li a{
+    color: gray;
+}
+
+.debug .main-nav ul li:first-child a{
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-weight:600;
+    font-size:1.875rem;
+}
+
+i{
+    width: 200px;
+    height: 200px;
+    display: block;
 }

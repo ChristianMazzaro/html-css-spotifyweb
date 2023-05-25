@@ -1,6 +1,78 @@
+/*
+
+IMPORT
+
+*/
+
+
 @import "reset.css";
 @import "general.css";
 @import "color.css";
-@import "debug.css"
+@import "debug.css";
+
+/*
+-----------------------------------------------------------------------------------------------
+*/
 
 
+/*
+
+MAIN
+
+*/
+
+.left-nav{
+    width: 250px;
+    outline: 3px dashed white;
+}
+
+.right-nav{
+    position: relative;
+    width: calc(100% - 250px);
+}
+
+.upgrade-msg{
+    position: fixed;
+    height: 80px;
+    width: calc(100% - 250px);
+    top: 0;
+    right: 0;
+    outline: 3px dashed white;
+    justify-content: flex-end;
+    padding-right: 1.25rem;
+}
+
+
+.upgrade-msg > a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 3.125rem;
+    padding: .5rem 2.5rem;
+   align-self:  center;
+   font-size: .625rem;
+}
+
+/*
+-----------------------------------------------------------------------------------------------
+*/
+
+/*
+
+FOOTER
+
+*/
+
+
+.player-container{
+    position: relative;
+}
+
+
+.music-player{
+    width: 100%;
+    height: 80px;
+    outline: 3px dashed white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
