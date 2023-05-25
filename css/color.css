@@ -1,0 +1,33 @@
+:root{
+    --first-color:rgb(20, 25, 34);
+    --second-color:rgb(40, 40, 40);
+    --third-color:rgba(8, 11, 18, 0.9);
+}
+    
+.first-color-bg{
+    background-color: var(--first-color);
+}
+
+.first-color-text{
+    color: var(--first-color);
+}
+
+.second-color-bg{
+    background-color: var(--second-color);
+}
+
+.second-color-bg{
+    color: var(--second-color);
+}
+
+.third-color-bg{
+    background-color: var(--third-color);
+}
+
+.white-text{
+    color: white;
+}
+
+.black-bg{
+    background-color: black;
+}
