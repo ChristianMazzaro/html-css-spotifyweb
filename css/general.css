@@ -9,8 +9,17 @@
 
 li{
     list-style: none;
+    line-height: 2.125rem;
 }
 
 a{
     text-decoration: none;
+}
+
+
+h1{
+    font-size: x-large;
+    color: white;
+    margin-top: 1.25rem;
+    margin-bottom: 15px;
 }

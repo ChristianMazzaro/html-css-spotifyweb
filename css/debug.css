@@ -60,18 +60,56 @@ debug footer .container .player-container .music-player{
                    MAIN DEBUG
 */
 
-.debug .main-nav ul li a{
+debug .main-nav ul li a{
     color: gray;
 }
 
-.debug .main-nav ul li:first-child a{
+debug .main-nav ul li:first-child a{
     color: white;
 }
 
-.logo{
-    color: white;
-    font-weight:600;
-    font-size:1.875rem;
-    padding: 1.25rem;
+debug .main-nav ul {
+    margin-top: 1.125rem;
 }
 
+debug .main-nav{
+    height:calc(100% - 140px);
+}
+
+
+debug .user{
+    color: gray;
+    height: 80px;
+    font-size: .9375rem;
+    line-height: 40px;
+}
+
+debug .user span:last-child{
+    color: white;
+}
+
+debug .main-nav .playlists ul li:first-child a{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+debug footer .container .player-container .music-player{
+    justify-content: space-between;
+}
+
+
+debug footer .container .player-container .music-player > div{
+    outline: 3px dashed white;
+    height: 100%;
+    color: white;
+}
