@@ -43,18 +43,13 @@ MAIN
     color: white;
 }
 
-.main-nav ul {
-    margin-top: 1.125rem;
-}
-
 .main-nav{
-    height:calc(100% - 140px);
+    height:calc(100% - 90px);
 }
 
 .playlists{
     height: calc(100% - 245px);
     overflow-y: auto;
-    margin-bottom: 50px;
 }
 
 .user{
@@ -64,9 +59,22 @@ MAIN
     line-height: 40px;
 }
 
-.user span:last-child{
+.user div:last-child{
     color: white;
 }
+
+.user div > img{
+    height: .9375rem;
+    width: .9375rem;
+}
+
+.user div:last-child > img{
+    background-color: gray;
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
 
 .main-nav .playlists ul li:first-child a{
     color: grey;

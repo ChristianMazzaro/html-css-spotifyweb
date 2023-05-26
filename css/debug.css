@@ -92,6 +92,11 @@ debug .main-nav .playlists ul li:first-child a{
     color: grey;
 }
 
+debug .user div > img{
+    height: .9375rem;
+    width: .9375rem;
+}
+
 
 
 
