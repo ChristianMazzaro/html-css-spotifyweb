@@ -133,13 +133,32 @@ FOOTER
     justify-content: space-between;
 }
 
-.music-player{
-    justify-content: space-between;
-}
-
 
 .music-player > div{
     outline: 3px dashed white;
     height: 100%;
     color: white;
+}
+
+.current-song{
+    align-items: center;
+}
+
+.current-song > img{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.current-song .flexbox{
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 0 20px;
+}
+
+.current-song .flexbox > h5{
+    display: inline-block;
+}
+
+.current-song div:first-of-type + div{
+    color: grey;
 }

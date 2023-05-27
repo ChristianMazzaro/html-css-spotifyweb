@@ -101,10 +101,13 @@ debug .user div > img{
 
 
 
+/*
+-----------------------------------------------------------------------------------------------
+*/
 
-
-
-
+/*
+                   FOOTER DEBUG
+*/
 
 
 
@@ -118,3 +121,5 @@ debug footer .container .player-container .music-player > div{
     height: 100%;
     color: white;
 }
+
+
