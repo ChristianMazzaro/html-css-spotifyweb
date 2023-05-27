@@ -123,3 +123,39 @@ debug footer .container .player-container .music-player > div{
 }
 
 
+.debug .music-timing{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.debug .central-bar{
+    flex-direction: column;
+    line-height: 3.125rem;
+    align-items:center ;
+}
+
+.debug .central-bar div i{
+    margin: 0 1.25rem;
+}
+
+
+#loading-bar{
+    background-color:rgba(61, 61, 63, 0.76);;
+    width: 500px;
+    height: 5px;
+    border-radius:.3125rem;
+    align-self: center;
+  }
+
+  #loading-bar > hr{
+    border: 
+    3px solid gray;
+    width: 20%;
+  }
+
+  .debug .minutes{
+    align-self:flex-end;
+    margin: .625rem 1.25rem;
+    font-size: .625rem  ;
+  } 
