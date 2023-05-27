@@ -198,3 +198,26 @@ FOOTER
     margin: .625rem 1.25rem;
     font-size: .625rem  ;
   } 
+
+  .volume{
+    align-items: center;
+  }
+
+  .volume > * {
+    margin: 0 10px;
+  }
+
+  #volume-bar{
+    background-color:rgba(61, 61, 63, 0.76);;
+    width: 100px;
+    height: 5px;
+    border-radius:.3125rem;
+    align-self: center;
+    display: inline-block;
+  }
+
+  #volume-bar > hr{
+    border: 
+    3px solid gray;
+    width: 20%;
+  }
