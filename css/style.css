@@ -108,6 +108,27 @@ MAIN
    font-size: .625rem;
 }
 
+
+main .container .right-nav .genres{
+    padding: 0 .625rem;
+    padding-top: 5rem;
+    height: 100%;
+}
+
+main .container .right-nav .genres ul{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .container .right-nav .genres ul li a{
+    color:grey;
+}
+
+main .container .right-nav .genres ul li{
+    padding: 5px 10px;
+}
+
+
 /*
 -----------------------------------------------------------------------------------------------
 */

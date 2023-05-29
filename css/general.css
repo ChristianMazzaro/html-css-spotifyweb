@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.circle-border{
+    border-radius: 50%;
+}
+
 li{
     list-style: none;
     line-height: 2.125rem;
@@ -21,5 +25,29 @@ h1{
     font-size: x-large;
     color: white;
     margin-top: 1.25rem;
-    margin-bottom: 15px;
+    margin-bottom: .9375rem;
+}
+
+h2{
+    color: white;
+    margin-bottom: .9375rem;
+    margin-top: 1.25rem;
+}
+
+h5{
+    color: grey;
+    margin-bottom: 1.25rem;
+}
+
+.cards-container{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1.25rem;
+}
+
+
+.cards{
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    text-align: center;
 }
