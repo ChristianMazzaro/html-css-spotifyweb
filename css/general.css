@@ -36,7 +36,6 @@ h2{
 
 h5{
     color: grey;
-    margin-bottom: 1.25rem;
 }
 
 .cards-container{
@@ -48,6 +47,6 @@ h5{
 
 .cards{
     flex-wrap: wrap;
-    margin: 0 -5px;
+    margin: 0 -10px;
     text-align: center;
 }

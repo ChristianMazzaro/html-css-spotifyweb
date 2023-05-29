@@ -118,20 +118,20 @@ debug main .container .right-nav .genres ul li{
 }
 
 
-.debug .cards > .card{
+debug .cards > .card{
     width: calc((100% / 6) - 10px);
     margin: 0 5px;
 }
 
-.debug .songs >h4{
+debug .songs >h4{
     color:white;
 }
 
-.debug .songs >h5{
+debug .songs >h5{
     color: grey;
 }
 
-.debug .cover-container > img{
+debug .cover-container > img{
     width:200px ;
     height:200px ;
 }
