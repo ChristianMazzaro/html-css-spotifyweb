@@ -141,9 +141,53 @@ main .container .right-nav .genres ul li{
     color: grey;
 }
 
+.cover-container{
+    position: relative;
+}
+
 .cover-container > img{
+    padding-top: .625rem;
     width:100%;
     height:100%;
+}
+
+.cover-container:hover > img{
+    opacity: 0.2;
+}
+
+.cover-container > i{
+    display: none;
+}
+
+.cover-container:hover > i{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.upgrade-msg > a:hover{
+    color: white;
+    border: 3px solid white;
+    padding: .6rem 2.8rem;
+}
+
+.main-nav ul li a:hover{
+    color: white;
+}
+
+.main-nav .playlists ul li a:hover{
+    color: white;
+}
+
+.main-nav .user div span:hover{
+    color: white;
+}
+
+main .container .right-nav .genres ul li a:hover{
+    color:white;
 }
 
 /*
@@ -194,7 +238,13 @@ FOOTER
 
 .current-song .flexbox > h5{
     display: inline-block;
+    color: white;
 }
+
+.current-song div > span{
+    color: grey;
+}
+
 
 .current-song div:first-of-type + div{
     color: grey;
@@ -223,11 +273,11 @@ FOOTER
     height: .3125rem;
     border-radius:.3125rem;
     align-self: center;
+    position: relative;
   }
 
 #loading-bar > hr{
-    border: 
-    3px solid gray;
+    border: 3px solid gray;
     width: 20%;
   }
 
@@ -237,29 +287,71 @@ FOOTER
     font-size: .625rem  ;
   } 
 
-  .volume{
+.volume{
     align-items: center;
   }
 
-  .volume > * {
+.volume > * {
     margin: 0 10px;
   }
 
-  #volume-bar{
+#volume-bar{
     background-color:rgba(61, 61, 63, 0.76);;
     width: 100px;
     height: 5px;
     border-radius:.3125rem;
     align-self: center;
     display: inline-block;
+    position: relative;
   }
 
-  #volume-bar > hr{
+#volume-bar > hr{
     border: 
     3px solid gray;
     width: 20%;
   }
 
+.current-song div:first-of-type + div:hover{
+    color: white;
+}
+
+.current-song div > span:hover{
+    color: white;
+}
+
+.central-bar .player-buttons i:nth-child(3):hover{
+    font-size: 40px ;
+}
+
+#loading-bar:hover hr{
+    border: 3px solid limegreen;
+}
+
+#loading-bar i{
+    display: none;
+}
+
+#loading-bar:hover i{
+    display: block;
+    position: absolute;
+    left:15%;
+    top: 20%;
+}
+
+#volume-bar:hover hr{
+    border: 3px solid limegreen;
+}
+
+#volume-bar i{
+    display: none;
+}
+
+#volume-bar:hover i{
+    display: block;
+    position: absolute;
+    left:15%;
+    top: 20%;
+}
 
 /*
 -----------------------------------------------------------------------------------------------
@@ -356,9 +448,13 @@ MEDIA QUERY
         position: absolute;
         bottom: 0;
       }
+    
+
+    .user div > span{
+        display: none;
     }
 
-    .user div > span, hr{
+    .user > hr{
         display: none;
     }
 }
